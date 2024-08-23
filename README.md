@@ -54,21 +54,27 @@ In the context of engagement prediction, the approach involves several key steps
 
 To build our Classifier and predictive system we explored the various models listed below;
 
- 1. Logistic Regression with TF-IDF
- 2. Naive Bayes
+ 1. Logistic Regression 
+ 2. Random forest
  3. SVM
- 4. Random Forest
- 5. XG-Boost
+ 4. KNN classifier
+ 5. Gradient Boosting
+ 6. Decision Tree
+ 7. Neural networks
+ 8. XG-Boost
+ 9. Ada Boost
 
- These models are assessed using metrics like Accuracy, RMSE, and ROC Curve with an emphasis on achieving high accuracy in sentiment analysis. Hyperparameter tuning and ensemble modeling are used to enhance model performance, and the best-performing models are selected.
+ These models are assessed using metrics like Accuracy, RMSE, and ROC Curve with an emphasis on achieving high accuracy in sentiment analysis.
 
  Additionally, natural language understanding (NLU) was implemented to extract context from user reviews for personalized responses. Testing and training ensure appropriate responses to various sentiments, and best model is integrated with the user interface and deployed at scale, using Streamlit and Pickle for model deployment. The project's scalability allows Kenya Airways to customize sentiment analysis and engagement prediction for their specific needs, fostering industry-wide improvements in customer engagement and satisfaction. 
 
  # EVALUATION
 
- ![alt text](image-3.png)
+ !![alt text](image-5.png)
 
- Based on the performance metrics, Tuned Logistic Regression is the best model for this particular dataset and task, offering a good balance between Precision, Recall, F1 Score, and Accuracy.
+ SVM outperforms the other models in terms of Accuracy, making it the best model in this comparison.
+
+This analysis suggests that SVM is likely the most reliable model for the dataset under consideration
 
  # CONCLUSIONS
 
