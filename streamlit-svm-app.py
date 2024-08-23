@@ -1,7 +1,9 @@
 import streamlit as st
 import joblib
+# import imblearn
 import pandas as pd
 import nltk
+# nltk.download()
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
@@ -13,7 +15,7 @@ nltk.download('stopwords')
 nltk.download('vader_lexicon')
 
 # Load the saved model
-model_filename = 'bestmodel.pkl'
+model_filename = 'bestmodel1.pkl'
 pipeline = joblib.load(model_filename)
 
 # Initialize NLTK tools
